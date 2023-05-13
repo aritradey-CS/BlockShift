@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.body {
+/* .body {
   background: steelblue;
   min-height: 100vh;
   background-size: 100vw 100vh;
@@ -11,51 +11,84 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .button-up {
+  padding: 8px 12px;
+  margin-left: 20%;
   background: greenyellow;
   border-radius: 10px;
-  height: 300pt;
-  width: 100px;
-  
+  height: 45pt;
+    width: 500px;
+  display: flex;
+  font-weight: bold;
+  /* position:relative; */
+  z-index: 10;
+  bottom: 0px;
+  top: 5vh;
+  text-align: center;
+  font-size: larger;
 }
 .button-right {
-  
-  background: greenyellow;
-  border-radius: 10px;
-  height: 300pt;
-  width: 100px;
-  align-items: center;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
+  padding: 170px 17px;
+    margin-left: 83%;
+    margin-top: -86%;
+    background: greenyellow;
+    border-radius: 10px;
+    height: 289pt;
+    width: 82px;
+    display: flex;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    bottom: 0px;
+    top: 5vh;
+    text-align: center;
+    font-size: larger;
 }
 .button-down {
+  padding: 8px 12px;
+    margin-left: 20%;
+    margin-top: 25%;
   background: greenyellow;
   border-radius: 10px;
-  height: 300pt;
-  width: 100px;
-  align-items: center;
-  border: none;
-  cursor: pointer;
+  height: 45pt;
+  width: 500px;
   display: flex;
-  justify-content: center;
+  font-weight: bold;
+  position:relative;
+  z-index: 10;
+  bottom: 0px;
+  top: 5vh;
+  text-align: center;
+  font-size: larger;
+  
+  
 }
 .button-left {
-  background: greenyellow;
-  border-radius: 10px;
-  height: 300pt;
-  width: 100px;
-  align-items: center;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
+  padding: 170px 17px;
+    margin-left: 10%;
+    margin-top: 25%;
+    background: greenyellow;
+    border-radius: 10px;
+    height: 289pt;
+    width: 83px;
+    display: flex;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    bottom: 0px;
+    top: 5vh;
+    text-align: center;
+    font-size: larger;
 }
+  
+
 
 .area {
+  background-color: aliceblues;
+  border: 1ch;
+  border-color: black;
   height: 50pt;
   width: 100px;
 }
