@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  background: steelblue; 
+  min-height: 100vh;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.area{
+  background: black; 
+  border-radius: 10px;
+  height: 50pt;
+  width: 50px;
+ 
+}
+
+.button-up{
+  background: greenyellow; 
+  border-radius: 10px;
+  height: 300pt;
+  width: 100px;
+  
+}
+.button-right{
+  background: greenyellow; 
+  border-radius: 10px;
+  height: 300pt;
+  width: 100px;
+ 
+}
+.button-down{
+  background: greenyellow; 
+  border-radius: 10px;
+  height: 300pt;
+  width: 100px;
+ 
+}
+.button-left{
+  background: greenyellow; 
+  border-radius: 10px;
+  height: 300pt;
+  width: 100px;
+ 
+}
+
+
