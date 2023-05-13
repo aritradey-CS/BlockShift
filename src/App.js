@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import './App.css';
 
 function App() {
@@ -45,21 +45,7 @@ function App() {
     setActive((prev) => prev - 10);
   };
 
-  // useEffect(() => {
-  //   const handler = (e: any) => {
-  //     if (e.which === 39) rightHandler();
-  //     if (e.which === 37) leftHandler();
-  //     if (e.which === 38) upHandler();
-  //     if (e.which === 40) downHandler();
-  //   };
-  //   window.addEventListener("keydown", handler);
-
-  //   return () => {
-  //     window.removeEventListener("keydown", handler);
-  //   };
-  // }, [active]);
-
-  return (
+    return (
     <main>
       <div>
         <div className="area">
