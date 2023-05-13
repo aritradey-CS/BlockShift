@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css';
 
 function App() {
   const slots = useState(Array.from(new Array(100), (v, i) => i))[0];
@@ -70,9 +71,9 @@ function App() {
           ))}
         </div>
         <button className="button-up" onClick={upHandler}>UP</button>
-        <button onClick={downHandler}>Down</button>
-        <button onClick={leftHandler}>Left</button>
-        <button onClick={rightHandler}>Right</button>
+        <button className="button-down"onClick={downHandler}>Down</button>
+        <button className="button-left" onClick={leftHandler}>Left</button>
+        <button className="button-right" onClick={rightHandler}>Right</button>
       </div>
     </main>
   );
