@@ -14,7 +14,7 @@
 } */
 
 .button-up {
-  padding: 8px 12px;
+  padding: 10px 225px;
   margin-left: 20%;
   background: greenyellow;
   border-radius: 10px;
@@ -31,8 +31,8 @@
 }
 .button-right {
   padding: 170px 17px;
-    margin-left: 83%;
-    margin-top: -86%;
+  margin-left: 70ch;
+  margin-top: -35ch;
     background: greenyellow;
     border-radius: 10px;
     height: 289pt;
@@ -47,7 +47,7 @@
     font-size: larger;
 }
 .button-down {
-  padding: 8px 12px;
+  padding: 10px 200px;
     margin-left: 20%;
     margin-top: 25%;
   background: greenyellow;
@@ -67,20 +67,20 @@
 }
 .button-left {
   padding: 170px 17px;
-    margin-left: 10%;
-    margin-top: 25%;
-    background: greenyellow;
-    border-radius: 10px;
-    height: 289pt;
-    width: 83px;
-    display: flex;
-    font-weight: bold;
-    position: relative;
-    z-index: 10;
-    bottom: 0px;
-    top: 5vh;
-    text-align: center;
-    font-size: larger;
+  margin-left: 14%;
+  margin-top: -32%;
+  background: greenyellow;
+  border-radius: 10px;
+  height: 289pt;
+  width: 83px;
+  display: flex;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  bottom: 0px;
+  top: 5vh;
+  text-align: center;
+  font-size: larger;
 }
   
 

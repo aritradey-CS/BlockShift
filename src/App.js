@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './App.css';
 
 function App() {
@@ -52,12 +52,12 @@ function App() {
   //     if (e.which === 38) upHandler();
   //     if (e.which === 40) downHandler();
   //   };
-  // //   window.addEventListener("keydown", handler);
+  //   window.addEventListener("keydown", handler);
 
-  // //   return () => {
-  // //     window.removeEventListener("keydown", handler);
-  // //   };
-  // // }, [active]);
+  //   return () => {
+  //     window.removeEventListener("keydown", handler);
+  //   };
+  // }, [active]);
 
   return (
     <main>
