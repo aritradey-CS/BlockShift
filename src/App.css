@@ -1,10 +1,10 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-.body{
-  background: steelblue; 
+.body {
+  background: steelblue;
   min-height: 100vh;
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
@@ -13,42 +13,55 @@
   align-items: center;
 }
 
-
-.area{
-  background: black; 
-  border-radius: 10px;
-  height: 50pt;
-  width: 50px;
- 
-}
-
-.button-up{
-  background: greenyellow; 
+.button-up {
+  background: greenyellow;
   border-radius: 10px;
   height: 300pt;
   width: 100px;
   
 }
-.button-right{
-  background: greenyellow; 
+.button-right {
+  
+  background: greenyellow;
   border-radius: 10px;
   height: 300pt;
   width: 100px;
- 
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
-.button-down{
-  background: greenyellow; 
+.button-down {
+  background: greenyellow;
   border-radius: 10px;
   height: 300pt;
   width: 100px;
- 
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
-.button-left{
-  background: greenyellow; 
+.button-left {
+  background: greenyellow;
   border-radius: 10px;
   height: 300pt;
   width: 100px;
- 
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
-
+.area {
+  height: 50pt;
+  width: 100px;
+}
+.box {
+  position: relative;
+  height: 0.5pt;
+  width: 50px;
+  background-color: slateblue;
+}
