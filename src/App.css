@@ -87,9 +87,9 @@
 
 .area {
   background-color: aliceblues;
-  border: 1ch;
-  border-color: black;
-  height: 50pt;
+  border: 5ch;
+  border-color: firebrick;
+  height: 100pt;
   width: 100px;
 }
 .box {
