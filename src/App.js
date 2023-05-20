@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './App.css';
+import "./App.css";
 
 function App() {
   const slots = useState(Array.from(new Array(100), (v, i) => i))[0];
@@ -45,9 +45,13 @@ function App() {
     setActive((prev) => prev - 10);
   };
 
-    return (
+  return (
     <main>
-      <div>
+      <div className="parent">
+        <button className="button-up" onClick={upHandler}>
+          UP
+        </button>
+
         <div className="area">
           {slots.map((sl) => (
             <div
@@ -56,11 +60,18 @@ function App() {
             ></div>
           ))}
         </div>
-        <button className="button-up" onClick={upHandler}>UP</button>
-        <button className="button-down"onClick={downHandler}>Down</button>
-        <button className="button-left" onClick={leftHandler}>Left</button>
-        <button className="button-right" onClick={rightHandler}>Right</button>
+
+        <button className="button-down" onClick={downHandler}>
+          Down
+        </button>
+        <button className="button-left" onClick={leftHandler}>
+          Left
+        </button>
+        <button className="button-right" onClick={rightHandler}>
+          Right
+        </button>
       </div>
+          
     </main>
   );
 }

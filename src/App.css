@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .body {
@@ -15,60 +16,44 @@
 
 .button-up {
   padding: 10px 225px;
-  margin-left: 20%;
   background: greenyellow;
   border-radius: 10px;
   height: 45pt;
-    width: 500px;
+  width: 100%;
   display: flex;
   font-weight: bold;
   /* position:relative; */
   z-index: 10;
-  bottom: 0px;
-  top: 5vh;
   text-align: center;
   font-size: larger;
 }
 .button-right {
   padding: 170px 17px;
-  margin-left: 73ch;
-  margin-top: -36ch;
-    background: greenyellow;
-    border-radius: 10px;
-    height: 289pt;
-    width: 82px;
-    display: flex;
-    font-weight: bold;
-    position: relative;
-    z-index: 10;
-    bottom: 0px;
-    top: 5vh;
-    text-align: center;
-    font-size: larger;
+  background: greenyellow;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  font-size: larger;
 }
 .button-down {
   padding: 10px 200px;
-    margin-left: 20%;
-    margin-top: 25%;
   background: greenyellow;
   border-radius: 10px;
   height: 45pt;
   width: 500px;
   display: flex;
   font-weight: bold;
-  position:relative;
+  position: relative;
   z-index: 10;
-  bottom: 0px;
-  top: 5vh;
   text-align: center;
   font-size: larger;
-  
-  
 }
 .button-left {
   padding: 170px 17px;
-  margin-left: 14%;
-  margin-top: -32%;
   background: greenyellow;
   border-radius: 10px;
   height: 289pt;
@@ -77,25 +62,56 @@
   font-weight: bold;
   position: relative;
   z-index: 10;
-  bottom: 0px;
-  top: 5vh;
   text-align: center;
   font-size: larger;
 }
-  
-
 
 .area {
   background-color: aliceblues;
   border: 5ch;
-  border-color: firebrick;
-  height: 100pt;
-  width: 100px;
+  /* height: 2000pt; */
+  border: 1px solid #333;
+  display: flex;
+  flex-wrap: wrap;
 }
 .box {
   position: relative;
   height: 0.5pt;
   width: 50px;
+  width: calc(100% / 10);
+  padding-bottom: calc(100% / 10);
+}
+.box.active {
   background-color: slateblue;
-  
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-template-areas:
+    "up up up up up up"
+    "left area area area area right"
+    "down down down down down down";
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+}
+.area {
+  grid-area: area;
+}
+.button-up {
+  grid-area: up;
+}
+
+.button-down {
+  grid-area: down;
+}
+
+.button-left {
+  grid-area: left;
+}
+
+.button-right {
+  grid-area: right;
 }
